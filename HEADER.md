@@ -63,9 +63,7 @@ And that's it for the HTML we need to write for this section! Now we can move in
 
 # Feature Set 1 - CSS Basic Setup
 
-To begin our CSS, we will start by creating some "utility classes". In CSS, a utility class is a class that is made to be reused, and usually only applies styling to one or two properties. These classes are named ___functionally___ rather than ___semantically___.
-
-For instance, if you create a class to apply style to the header for a section of your page listing items for sale, you may title that class something like `product-list-header`; this class name would be an example of a ___semantic___ class name, since it describes the content that will receive the styling you are creating. By contrast, if you were making a utility class, the class name should describe its ___function___ rather than what will receive that styling, so that you can easily reuse this class wherever it is applicable. Let's make the first utility class we will need to see this in action!
+To begin our CSS, we will start by creating some [utility classes](https://github.com/Learning-Fuze/lfz-root1-lessons/tree/master/exercises/css-utility-classes).
 
 1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `text-center`. Within that rule, set the `text-align` property to have a value of `center`.
     - This is an example of a "utility class". Notice that the class name does not describe what element will receive this styling, but rather describes the styling applied to that class, so that the class can be applied to any element we want to use that styling on and immediately understand what that class is doing.
