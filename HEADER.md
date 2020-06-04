@@ -1,4 +1,4 @@
-# Portfolio Header
+# <div align="center">Portfolio Header</div>
 
 Now that we have narrowed the focus of the planning to individual sections, let's begin working on the first section of the application, the header:
 
@@ -24,7 +24,7 @@ These nav elements are all going to be distinct elements, but they have all been
 
 For the sake of the application, we will be using a grid system with **12 columns**. As such, we can now start to consider the size the elements should take up. The "Student Name" headline and nav element container do not take up all of the available space on the row, so we should be leaving some extra space in their sizing. The nav container is taking up about half of the row, so it should take up **6 columns** of the total twelve columns. Finally, the headline with your name will take **4 columns**, which leaves us with **2 columns** left over to use as **space between** the elements. Now that we have a plan of action, we can begin coding this section out!!
 
-# Basic HTML structure
+# <div align="center">Basic HTML structure</div>
 
 In your `root-one-portfolio` folder, please do the following:
 
@@ -66,7 +66,7 @@ In your `root-one-portfolio` folder, please do the following:
 
 And that's it for the HTML we need to write for this section! We will return to the html to add some classes later, but for now, we can move into preparing the CSS we will be applying to the elements.
 
-# CSS Basic Setup
+# <div align="center">CSS Basic Setup</div>
 
 To begin the CSS, we will apply the font family that was imported from Google Fonts to all of the text in our document.
 
@@ -97,7 +97,7 @@ And that's it for the utility classes we will need for this section! There are s
 
 That is all the styling we will need to complete the header section of our document!! That may have felt like a lot of CSS to write for just one section, but most of the styling we just wrote was utility classes that we will be able to reuse throughout our document. Believe it or not, nearly half of the CSS for your entire document is now complete! Utility classes do require forethought and planning, but they allow us to do quite a lot with not a lot of code. Now that the CSS has been written for this section, let's move on to updating the HTML we wrote in the step above.
 
-# Updating HTML with CSS classes
+# <div align="center">Updating HTML with CSS classes</div>
 
 Now that we have the classes we needed to make to complete this section, let's go back and apply them to the elements in question to get that styling we were looking for!
 
@@ -119,7 +119,7 @@ And that's it!! So far, your document should look like this:
 
 If so, you are prepared to move on to the next section, the [Hero Image](HERO_IMG.md)!
 
-# <center>CODE QUALITY CHECK</center>
+# <div align="center">CODE QUALITY CHECK</div>
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
 
