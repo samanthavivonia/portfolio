@@ -3,7 +3,7 @@
 Now that we have narrowed the focus of the planning to individual sections, let's begin working on the first section of the application, the header:
 
 <p align="center">
-  <img src="assets/readme_assets/header.png" alt="Portfolio page wireframe">
+  <img src="assets/readme_assets/header.png" alt="Portfolio header wireframe">
 </p>
 
 In the structure of the header, we have four text elements, with one placed against the left side of the row, and three placed against the right side of the row with a little space between them. There are multiple different ways we could accomplish this layout, but we want to find the [path of least resistance](https://en.wikipedia.org/wiki/Path_of_least_resistance).

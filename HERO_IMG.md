@@ -33,14 +33,14 @@ There is still some styling that we need to apply to these elements, namely the 
 The first thing we need to do is add the background image to this section. In order to do that, we will need to set the value for a few properties that correlate with `background-image` to control the behavior of the image we are going to use as the background. Take a look now at the image we will be using as the background for this section:
 
 <p align="center">
-  <img src="assets/readme_assets/lfz-logo.png" alt="Portfolio hero image wireframe">
+  <img src="assets/readme_assets/lfz-logo.png" alt="Portfolio LFZ logo for background">
 </p>
 <p align="center"><code>lfz-logo.png</code> in the assets folder included with this project</p>
 
 The image has a transparent background, and is much larger than we want it to be given the example of our completed project we saw previously:
 
 <p align="center">
-  <img src="assets/readme_assets/hero-example.png" alt="Portfolio hero image wireframe">
+  <img src="assets/readme_assets/hero-example.png" alt="Portfolio hero image example">
 </p>
 
 Based on this, we know a couple things that we will need to do to this background image:
@@ -69,7 +69,26 @@ Since this styling will be highly unique to the hero image element, we will crea
 And that's it for the background image! We still have one more semantic class to create though, for the `h1` with your name in it.
 
 1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `student-name`.
+1. In the CSS rule you created in the step above, add a `font-size` property with a value of `80px`.
+    - The title in this section requires larger text than the default `h1` styling, so we are increasing it here.
+1. Below the above property, add a `background-color` property with a value of `#303b43`.
+    - This is the same background color as we have for the background of the hero image. By doing this, we can have a stripe of the same color behind the text of the element, making it seem as though it is also a part of the background.
+1. Below the above property, add a `border-top` property with a value of `5px double white`.
+1. Below the above property, add a `border-top` property with a value of `5px double white`.
+    - The above two steps set up the border above and below your name.
 
+And that's all of the CSS necessary for the hero image! It's now time to apply these classes to the proper elements.
+
+1. Add the class `student-name` to the `h1` element with your name in all capital letters as its text content.
+1. Add the class `hero-image` to the `div` which holds the `h1` element.
+
+Save and open your document, and you should now see this:
+
+<p align="center">
+  <img src="assets/readme_assets/hero-complete.png" alt="Portfolio hero image complete">
+</p>
+
+If so, you have completed this section, and you are ready to move on to the [ABOUT ME](ABOUT_ME.md) section! If your version still does not match the above image, look back through your code and double check that you completed each step. Please feel free to use the completed code so far from below as a reference.
 
 # <div align="center">CODE QUALITY CHECK</div>
 
@@ -164,11 +183,6 @@ html {
     background-repeat: no-repeat;
     background-size: auto 80%;
     height: 350px;
-    transition: background-size linear 0.5s;
-}
-
-.hero-image:hover {
-    background-size: auto 95%;
 }
 
 .student-name {
