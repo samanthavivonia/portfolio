@@ -3,7 +3,7 @@
 As your time in this course comes to a close, it is time to bring all the skills you've accrued together to tackle a challenge: building a full webpage layout from scratch. Specifically, we will be building a portfolio page describing yourself and some of your work. Here is an example of what we will be creating:
 
 <p align="center">
-  <img src="assets/readme_assets/root_portfolio.gif" alt="Portfolio demo gif">
+  <img src="assets/readme_assets/complete-project.gif" alt="Portfolio demo gif">
 </p>
 
 ## <div align="center">Making a Wireframe</div>
@@ -33,7 +33,7 @@ Now that we are ready to begin planning out the sizing and placement of the elem
 When setting out to plan out the specifics of a webpage layout, it is extremely helpful to **break the page down** into individual sections. Based upon the wireframe we constructed above, we have some very clearly separated sections that we can use to break this layout down into individual objectives to tackle.
 
 <p align="center">
-  <img src="assets/readme_assets/header.png" alt="Portfolio page wireframe">
+  <img src="assets/readme_assets/header.png" alt="Portfolio header wireframe">
 </p>
 
 A good place to start would be the page header, as seen above. The header section takes up a full horizontal row of the webpage, which makes it an easy structure to consider separately from the rest of the document. In fact, the rest of this project would probably be much easier to tackle if we consider each section of the page to be its own separate task to break down. Given that, we now know how we want to divide up the workload:
