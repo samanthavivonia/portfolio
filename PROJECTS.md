@@ -42,7 +42,7 @@ Yet again, believe it or not, that is all for this section! You are hopefully no
   <img src="assets/readme_assets/projects-complete.gif" alt="Projects section complete">
 </p>
 
-If so, you are ready to move on to the next section: [the Footer](FOOTER.md). If anything differs from the example above, cross-check your completed code with the code I have provided below before moving on.
+If so, you are ready to move on to the next section: [Contact](CONTACT.md). If anything differs from the example above, cross-check your completed code with the code I have provided below before moving on.
 
 # <div align="center">CODE QUALITY CHECK</div>
 
