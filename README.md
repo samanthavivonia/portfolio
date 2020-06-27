@@ -6,6 +6,50 @@ As your time in this course comes to a close, it is time to bring all the skills
   <img src="assets/readme_assets/complete-project.gif" alt="Portfolio demo gif">
 </p>
 
+## Getting Started
+
+### Create a Repository
+
+To begin, you'll need a GitHub repository to commit your code to. We will use this repository as a template, so that you can make your own repository with the files necessary for this project. There are steps below the following image to help you out.
+
+1. Follow <a href="https://github.com/Learning-Fuze/lfz-prep-portfolio" target="_blank">this link</a> and click on the "Use This Template" button shown in the image below.
+    <p align="center">
+      <img src="assets/readme_assets/use-template.png" alt="use template button image">
+    </p>
+1. You will be redirected to a new page which looks like this:
+    <p align="center">
+      <img src="assets/readme_assets/create-template-repo.png" alt="create template repo image">
+    </p>
+1. Leave the **Owner** set to your own GitHub username.
+1. Name your repository **`portfolio`**.
+1. Give it the following description: **An HTML and CSS app to showcase my work.**
+1. Ensure the repository is set to **Public**.
+1. Do **NOT** check the "Include all branches" checkbox.
+1. Click the "Create repository from template" button.
+
+### Clone the Repository
+
+Once your GitHub repository has been created, you'll need to clone it to your computer with the `git` command.
+
+1. Open your Terminal (on Mac) or Git Bash (on Windows).
+1. Change to your `lfz` directory with the following command:
+    ```bash
+    cd ~/lfz
+    ```
+1. On your repository's GitHub page, find and click the **Clone** button.
+1. Copy the URL that is displayed.
+1. Back in your Terminal (Mac) or Git Bash (Windows), clone your repository with the `git clone` command. You'll need to paste the URL you copied instead of the example below.
+    ```bash
+    git clone https://github.com/username/portfolio
+    ```
+1. Then, change directories to your freshly cloned repository.
+    ```bash
+    cd portfolio
+    ```
+1. Lastly, open your new `portfolio` directory in your code editor!
+
+With that done, we are now ready to begin the project!
+
 ## <div align="center">Making a Wireframe</div>
 
 When you are setting out to begin a new project, the first (*and most important!*) step in the development process is to ___plan___. Before we even touch code, the first step is to create a complete plan of what needs to be built, and how it should be built. Given that we want to make the portfolio page shown in the gif above, the first step in the planning process should be to make a visual representation of the page known as a [wireframe](https://en.wikipedia.org/wiki/Website_wireframe).
