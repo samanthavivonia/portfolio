@@ -72,7 +72,19 @@ To begin the CSS, we will apply the font family that was imported from Google Fo
 
 1. In your `style.css` document, create a new CSS rule selecting the `html` element. Within that rule, set the `font-family` property to have a value of `"Source Sans Pro", sans-serif`. This will set all text to have a font family of "Source Sans Pro", with a fallback font family of `sans-serif` just in case the intended font family cannot be used for some reason.
 
-Next, we will be creating some [utility classes](https://github.com/Learning-Fuze/lfz-root1-lessons/tree/master/exercises/css-utility-classes)!
+Next, we will be creating some utility classes! In CSS, a utility class is a class that is made to be reused, and usually only applies styling to one or two properties. These classes are named ***functionally*** rather than ***semantically***.
+
+For instance, if you create a class to apply style to the header for a section of your page listing items for sale, you may title that class something like `product-list-header`; this class name would be an example of a ***semantic*** class name, since it describes the content that will receive the styling you are creating. By contrast, if you were making a utility class, the class name should describe its ***function*** rather than what will receive that styling, so that you can easily reuse this class wherever it is applicable.
+
+For example, a utility class might be something like this:
+
+```css
+.text-align-center {
+    text-align: center;
+}
+```
+
+Notice that the name of the class does not hint at any content it would be influencing, it simply describes the function that the class is used for. By keeping the name of the class related to its functionality rather than what it is being applied to, we can now use this class anywhere we might want to in our document.
 
 1. Below the CSS rule we wrote for the step above, create a new CSS rule selecting all elements with a class of `text-align-center`. Within that rule, set the `text-align` property to have a value of `center`.
     - This is an example of a "utility class". Notice that the class name does not describe what element will receive this styling, but rather describes the styling applied to that class, so that the class can be applied to any element we want to use that styling on and immediately understand what that class is doing.
@@ -83,11 +95,11 @@ Next, we will be creating some [utility classes](https://github.com/Learning-Fuz
 The rest of the utility classes we will make for this section are meant to work in conjunction with the grid system, which is built using `Flexbox`. While the grid system provides all of the classes we will need for sizing, we will need some classes for positioning items using "flexbox" within their rows in the grid.
 
 1. Create a new CSS rule selecting all elements with a class of `justify-center`. Within that rule, set the `justify-content` property to have a value of `center`.
-  - The [`justify-content`](https://www.w3schools.com/cssref/css3_pr_justify-content.asp) property controls horizontal placement of child elements in FlexBox elements.
+  - The [`justify-content`](https://www.w3schools.com/cssref/css3_pr_justify-content.asp) property controls placement of child elements in FlexBox elements along the primary axis, which is the X axis (horizontal) by default.
 1. Create a new CSS rule selecting all elements with a class of `justify-evenly`. Within that rule, set the `justify-content` property to have a value of `space-evenly`.
 1. Create a new CSS rule selecting all elements with a class of `justify-between`. Within that rule, set the `justify-content` property to have a value of `space-between`.
 1. Create a new CSS rule selecting all elements with a class of `align-center`. Within that rule, set the `align-tems` property to have a value of `space-evenly`.
-  - The [`align-tems`](https://www.w3schools.com/cssref/css3_pr_align-items.asp) property controls vertical placement of child elements in FlexBox elements without the ability to [wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp).
+  - The [`align-tems`](https://www.w3schools.com/cssref/css3_pr_align-items.asp) property controls placement of child elements in FlexBox elements along the cross axis, which is the Y axis (vertical) by default.
 
 And that's it for the utility classes we will need for this section! There are still a couple minor classes we need to make styling for, but these will be `semantic classes` that are named for the element they will be being applied to rather than the functionality they provide.
 

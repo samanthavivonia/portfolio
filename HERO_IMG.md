@@ -74,7 +74,7 @@ And that's it for the background image! We still have one more semantic class to
 1. Below the above property, add a `background-color` property with a value of `#303b43`.
     - This is the same background color as we have for the background of the hero image. By doing this, we can have a stripe of the same color behind the text of the element, making it seem as though it is also a part of the background.
 1. Below the above property, add a `border-top` property with a value of `5px double white`.
-1. Below the above property, add a `border-top` property with a value of `5px double white`.
+1. Below the above property, add a `border-bottom` property with a value of `5px double white`.
     - The above two steps set up the border above and below your name.
 
 And that's all of the CSS necessary for the hero image! It's now time to apply these classes to the proper elements.
