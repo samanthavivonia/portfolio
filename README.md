@@ -12,7 +12,7 @@ As your time in this course comes to a close, it is time to bring all the skills
 
 To begin, you'll need a GitHub repository to commit your code to. We will use this repository as a template, so that you can make your own repository with the files necessary for this project. There are steps below the following image to help you out.
 
-1. Follow <a href="https://github.com/Learning-Fuze/lfz-prep-portfolio" target="_blank">this link</a> and click on the "Use This Template" button shown in the image below.
+1. Open [this link](https://github.com/Learning-Fuze/lfz-prep-portfolio) in a new tab, and click on the "Use This Template" button shown in the image below.
     <p align="center">
       <img src="assets/readme_assets/use-template.png" alt="use template button image">
     </p>
