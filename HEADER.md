@@ -28,7 +28,7 @@ For the sake of the application, we will be using a grid system with **12 column
 
 In your `root-one-portfolio` folder, please do the following:
 
-1. Create an empty `style.css` file and an empty `index.html` file.
+1. Create an empty `style.css` file and an empty `index.html` file in your `lfz-prep-portfolio` folder.
 1. Add an HTML skeleton to your `index.html`.
 1. In the `head` element of your `index.html`, please paste in the following link element that will add a font family from Google Fonts that we can use in our document:
 ```html
