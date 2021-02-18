@@ -98,8 +98,8 @@ The rest of the utility classes we will make for this section are meant to work 
   - The [`justify-content`](https://www.w3schools.com/cssref/css3_pr_justify-content.asp) property controls placement of child elements in FlexBox elements along the primary axis, which is the X axis (horizontal) by default.
 1. Create a new CSS rule selecting all elements with a class of `justify-evenly`. Within that rule, set the `justify-content` property to have a value of `space-evenly`.
 1. Create a new CSS rule selecting all elements with a class of `justify-between`. Within that rule, set the `justify-content` property to have a value of `space-between`.
-1. Create a new CSS rule selecting all elements with a class of `align-center`. Within that rule, set the `align-tems` property to have a value of `space-evenly`.
-  - The [`align-tems`](https://www.w3schools.com/cssref/css3_pr_align-items.asp) property controls placement of child elements in FlexBox elements along the cross axis, which is the Y axis (vertical) by default.
+1. Create a new CSS rule selecting all elements with a class of `align-center`. Within that rule, set the `align-items` property to have a value of `center`.
+  - The [`align-items`](https://www.w3schools.com/cssref/css3_pr_align-items.asp) property controls placement of child elements in FlexBox elements along the cross axis, which is the Y axis (vertical) by default.
 
 And that's it for the utility classes we will need for this section! There are still a couple minor classes we need to make styling for, but these will be `semantic classes` that are named for the element they will be being applied to rather than the functionality they provide.
 
