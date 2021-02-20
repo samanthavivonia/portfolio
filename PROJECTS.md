@@ -18,7 +18,7 @@ And that's it! We really get to start seeing the magic of utility classes now, s
 
 # Projects HTML
 
-1. Below the `div` element you created for the Technologies section, create another `div` element.
+1. Below the `div` element you created for the Technologies section, add a sibling `div` element.
 1. This section has a link in the navbar as well, so we will need to supply an `id` for the element to correlate with the anchor tag in the nav. Add an `id` attribute with a value of "projects" to the div element created in the step above.
 1. Since the CSS is already done for this section, we can apply all necessary classes to this element now! Here is each class we will add to this element, along with the reason for it:
     1. `row`
@@ -29,7 +29,7 @@ And that's it! We really get to start seeing the magic of utility classes now, s
         - This will create some extra room on the bottom of the element to help separate it visually from the section below it.
     1. `projects-section`
         - This will apply the proper background color to this section.
-1. Within the `div` element created above, create a child `h1` element with the text content "TECHNOLOGIES". Based on the wireframe above, we know that this element needs to take up the full width of this element, so apply a class of `col-12` as well.
+1. Within the `div` element created above, create a child `h1` element with the text content "MY PROJECTS". Based on the wireframe above, we know that this element needs to take up the full width of this element, so apply a class of `col-12` as well.
 1. Below the above `h1` element, create ***THREE*** `img` elements. Additionally, please set the following attributes on these `img` elements:
     - [`alt`](https://www.w3schools.com/tags/att_img_alt.asp) - set to a value of "Placeholder Project"
     - [`src`](https://www.w3schools.com/tags/att_img_src.asp) - set to a [relative path](https://www.w3schools.com/html/html_filepaths.asp) leading to the `placeholder-project.png` image in the `assets` folder
@@ -75,29 +75,29 @@ With every step of this project, I will provide the completed code for what we h
             </nav>
         </header>
         <div class="row justify-center align-center white-text hero-image">
-            <h1 class="col-12 student-name">ADA LOVELACE</h1>
+            <h1 class="student-name">ADA LOVELACE</h1>
         </div>
-    </div>
-    <div id="about" class="row justify-evenly align-center pb-50 about-section">
-        <h1 class="col-12">ABOUT ME</h1>
-        <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
-        <div class="col-5 text-align-reset">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+        <div id="about" class="row justify-evenly align-center pb-50 about-section">
+            <h1 class="col-12">ABOUT ME</h1>
+            <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
+            <div class="col-5 text-align-reset">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+            </div>
         </div>
-    </div>
-    <div id="tech" class="row justify-evenly pb-50 tech-section">
-        <h1 class="col-12">TECHNOLOGIES</h1>
-        <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
-        <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
-        <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
-    </div>
-    <div id="projects" class="row justify-evenly pb-50 projects-section">
-        <h1 class="col-12">MY PROJECTS</h1>
-        <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
-        <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
-        <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+        <div id="tech" class="row justify-evenly pb-50 tech-section">
+            <h1 class="col-12">TECHNOLOGIES</h1>
+            <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
+            <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
+            <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
+        </div>
+        <div id="projects" class="row justify-evenly pb-50 projects-section">
+            <h1 class="col-12">MY PROJECTS</h1>
+            <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+            <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+            <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+        </div>
     </div>
 </body>
 

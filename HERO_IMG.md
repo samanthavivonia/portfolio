@@ -18,7 +18,7 @@ Now that the tasks that need to be accomplished are clear, we can start laying o
 # Hero Image HTML
 
 1. As a sibling element to the `header` element, create a `div` element. Since the hero image will be a row in our document grid system, give the `div` a class of `row`.
-1. As a child of the above `div` element we created, create an `h1` element. We want this text element to take up the full width of the hero image row, so please add a class of `col-12`. This will make the element span the full twelve columns of the grid system.
+1. As a child of the above `div` element we created, create an `h1` element.
 1. Make the text content of the above `h1` element your full name in all capital letters.
 
 And that is all of the new HTML elements we will need for this section! Before we move on to writing CSS for this portion, though, there are some utility classes we can add to these elements that we already made in the process of creating the Header. Looking back to the objectives that were determined above for this section, we know that the text element needs to be centered horizontally and vertically. Thankfully, there are classes for each of these already!
@@ -121,7 +121,7 @@ With every step of this project, I will provide the completed code for what we h
             </nav>
         </header>
         <div class="row justify-center align-center white-text hero-image">
-            <h1 class="col-12 student-name">ADA LOVELACE</h1>
+            <h1 class="student-name">ADA LOVELACE</h1>
         </div>
     </div>
 </body>

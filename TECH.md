@@ -82,23 +82,23 @@ With every step of this project, I will provide the completed code for what we h
             </nav>
         </header>
         <div class="row justify-center align-center white-text hero-image">
-            <h1 class="col-12 student-name">ADA LOVELACE</h1>
+            <h1 class="student-name">ADA LOVELACE</h1>
         </div>
-    </div>
-    <div id="about" class="row justify-evenly align-center pb-50 about-section">
-        <h1 class="col-12">ABOUT ME</h1>
-        <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
-        <div class="col-5 text-align-reset">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+        <div id="about" class="row justify-evenly align-center pb-50 about-section">
+            <h1 class="col-12">ABOUT ME</h1>
+            <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
+            <div class="col-5 text-align-reset">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+            </div>
         </div>
-    </div>
-    <div id="tech" class="row justify-evenly pb-50 tech-section">
-        <h1 class="col-12">TECHNOLOGIES</h1>
-        <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
-        <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
-        <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
+        <div id="tech" class="row justify-evenly pb-50 tech-section">
+            <h1 class="col-12">TECHNOLOGIES</h1>
+            <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
+            <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
+            <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
+        </div>
     </div>
 </body>
 
