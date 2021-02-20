@@ -93,7 +93,7 @@ With every step of this project, I will provide the completed code for what we h
             </nav>
         </header>
         <div class="row justify-center align-center white-text hero-image">
-            <h1 class="student-name">ADA LOVELACE</h1>
+            <h1 class="col-12 student-name">ADA LOVELACE</h1>
         </div>
     </div>
     <div id="about" class="row justify-evenly align-center pb-50 about-section">
