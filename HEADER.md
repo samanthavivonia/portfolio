@@ -39,7 +39,7 @@ In your code editor, please do the following:
 1. Look at the contents of the `grid.css` file. You will notice that this is the same grid provided by us for the grid exercise you completed previously.
 1. Within the `body` element, add a `div` element with a class of `container`. This element will serve as the wrapper for all of the content of the page.
 1. Within the `div`, please add a `header` element with a class of `row`. This element is a [semantic element](https://www.w3schools.com/html/html5_semantic_elements.asp) which describes its content as "header" content. This element will serve as the container for all of the header content, and the `row` class will declare this element to be a row in the grid system of the document.
-1. Give the `header` element a child `h1` element and a child `nav` element.
+1. Give the `header` element a child `h1` element.
     - The text content of the `h1` should be your full name.
 1. Give the `h1` element you just created the class `col-4`. This will set up the name headline to take up the four columns we determined it should take up in its row.
 1. Give the `header` element another child of a [`nav` element](https://www.w3schools.com/tags/tag_nav.asp).
