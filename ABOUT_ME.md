@@ -1,4 +1,4 @@
-# <div align="center">Portfolio About Me</div>
+# Portfolio About Me
 
 For our next task, we will be working on building the "About Me" section of the portfolio page. This section will require a photo of you that you feel is a good representation of you and your personality. If it's going to be for a portfolio though, make sure it's professional! Let's take a look at the wireframe we created for the "About Me" section:
 
@@ -6,9 +6,9 @@ For our next task, we will be working on building the "About Me" section of the 
   <img src="assets/readme_assets/about-me-wireframe.png" alt="Portfolio About Me wireframe">
 </p>
 
-Based on this, we can see that there is a header declaring the purpose of the section which should take up the full width of the available space (col-12), an image prominently displayed to the left that takes up about a fourth of the width of the section (col-3), and some text to the right that should be almost half of the available width (col-5). Given that there is only a total of 8 columns in the second row of this section, we will need to use that extra space to position the elements to have space evenly spread around them. Let's get started with the HTML necessary to complete this section!
+Based on this, we can see that there is a header declaring the purpose of the section which should take up the full width of the available space (`col-12`), an image prominently displayed to the left that takes up about a fourth of the width of the section (col-3), and some text to the right that should be almost half of the available width (`col-5`). Given that there is only a total of 8 columns in the second row of this section, we will need to use that extra space to position the elements to have space evenly spread around them. Let's get started with the HTML necessary to complete this section!
 
-# <div align="center">About Me HTML</div>
+# About Me HTML
 
 1. Below the `div` element you created for the hero image, create another `div` element.
 1. Now that we have made our way into a section of the page that there is a link to in the header, we will need to supply an `id` for the element to correlate with the anchor tag in the nav. Add an `id` attribute with a value of "about" to the div element created in the step above.
@@ -34,18 +34,18 @@ Based on this, we can see that there is a header declaring the purpose of the se
 
 That is all of the new HTML necessary for this section! There are a couple of classes we will need to create styling for though, so let's move into CSS.
 
-# <div align="center">About Me CSS</div>
+# About Me CSS
 
-1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `about-section`.
-1. In the CSS rule you created in the step above, add a `background-color` property with a value of `whitesmoke`.
+1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `about-section`.
+1. In the CSS rule-set you created in the step above, add a `background-color` property with a value of `whitesmoke`.
     - This class will be used to set the background color for this section.
-1. Create a new CSS rule selecting all elements with a class of `about-image`.
-1. In the CSS rule you created in the step above, add a `max-height` property with a value of `80%`.
+1. Create a new CSS rule-set selecting all elements with a class of `about-image`.
+1. In the CSS rule-set you created in the step above, add a `max-height` property with a value of `80%`.
     - This class will be applied to the photo in this section. This property is allowing the image to size itself to a maximum of 80% of the height of the available area. By using `max-height` rather than `height`, we can control images whose size would exceed 80%, but images that would be smaller than 80% can maintain their original size and not be enlarged in any way.
 1. Below the above property, add a `border` property with a value of `6px solid slategray`.
     - This border will act as a frame around your image.
-1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `text-align-reset`.
-1. In the CSS rule you created in the step above, add a `text-align` property with a value of `initial`.
+1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `text-align-reset`.
+1. In the CSS rule-set you created in the step above, add a `text-align` property with a value of `initial`.
     - The reason we need this class is because all the text on the entire document is being centered, due to the `text-align-center` class that was applied to the main container `div` in the document. For every other piece of text in the document, centering is what we want. In this specific instance, though, the text should be left-aligned as it would by default, since this section will hold text content meant to be formatted normally for reading. Rather than put an individual `text-align-center` class on every element that needs to be centered, that class can be applied to the main div, and this `text-align-reset` class can be applied to the one element we want to have default text alignment. The `intial` value this property was set to returns the property to whatever it's default value would be, which for the `text-align` property is `left`.
 
 That is all the CSS that is needed for this section, the last remaining step is to apply the classes that were just created to the proper elements in the HTML.
@@ -62,7 +62,7 @@ At this point, you are done with the About Me section! If all went according to 
 
 If so, you are ready to move on to the next section: [Technologies](TECH.md). If anything differs from the example above, cross-check your completed code with the code I have provided below before moving on.
 
-# <div align="center">CODE QUALITY CHECK</div>
+# CODE QUALITY CHECK
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
 

@@ -1,4 +1,4 @@
-# <div align="center">Portfolio Technologies Section</div>
+# Portfolio Technologies Section
 
 For our next task, we will be working on building the "Technologies" section of the portfolio page. This section will show off what technologies you have experience with that you want to show off to prospective employers. At this point in your development journey, those technologies are HTML, CSS, and JavaScript. Let's take a look at the wireframe we created for the "Technologies" section:
 
@@ -8,15 +8,15 @@ For our next task, we will be working on building the "Technologies" section of 
 
 Based on this, we can see that there is a header declaring the purpose of the section which should take up the full width of the available space (col-12), and three boxes which are meant to represent images of each technology logo. The logo for each technology has been provided for you in the assets for this project. The images are very large, but they should be reasonably small on the actual page. As can be seen on the wireframe above, a measurement of `col-1` will keep them at a reasonable size, and we can space them out evenly in the extra space using the utility classes we have created previously. In fact, there is only one new piece of CSS that needs to be written for this section, so let's finish that up first!
 
-# <div align="center">Technologies CSS</div>
+# Technologies CSS
 
-1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `tech-section`.
-1. In the CSS rule you created in the step above, add a `background-color` property with a value of `gainsboro`.
+1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `tech-section`.
+1. In the CSS rule-set you created in the step above, add a `background-color` property with a value of `gainsboro`.
     - This class will be used to set the background color for this section.
 
 And that's it! thanks to the magic of utility classes, all of the rest of the styling needed for this section already exists, and we can apply it to the HTML as it is built. Let's get started!
 
-# <div align="center">Technologies HTML</div>
+# Technologies HTML
 
 1. Below the `div` element you created for the About section, create another `div` element.
 1. This section has a link in the navbar as well, so we will need to supply an `id` for the element to correlate with the anchor tag in the nav. Add an `id` attribute with a value of "tech" to the div element created in the step above.
@@ -51,7 +51,7 @@ Believe it or not, that is all for this section! Open your document in the brows
 
 If so, you are ready to move on to the next section: [Projects](PROJECTS.md). If anything differs from the example above, cross-check your completed code with the code I have provided below before moving on.
 
-# <div align="center">CODE QUALITY CHECK</div>
+# CODE QUALITY CHECK
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
 

@@ -1,4 +1,4 @@
-# <div align="center">Portfolio Hero Image</div>
+# Portfolio Hero Image
 
 For our next task, we will be working on building the [hero image](https://en.wikipedia.org/wiki/Hero_image) for the portfolio page. In the case of a portfolio, the central thing we want people to know is the name of the person whose portfolio they are looking at, so it will be placed prominently on the image that draws a user's attention when they first view the page. Let's take a look at the wireframe we constructed for this section:
 
@@ -8,14 +8,14 @@ For our next task, we will be working on building the [hero image](https://en.wi
 
 Given this wireframe, there are a few points we can make note of about what needs to be accomplished here:
 
-- There is an image background to the section
+- There is an image background in the section
 - There is a text element overlaying that image
 - The text element is centered both horizontally and vertically over the image
 - The text element has a border on the top and bottom of the element
 
 Now that the tasks that need to be accomplished are clear, we can start laying out our HTML for this section, which should be pretty simple.
 
-# <div align="center">Hero Image HTML</div>
+# Hero Image HTML
 
 1. As a sibling element to the `header` element, create a `div` element. Since the hero image will be a row in our document grid system, give the `div` a class of `row`.
 1. As a child of the above `div` element we created, create an `h1` element. We want this text element to take up the full width of the hero image row, so please add a class of `col-12`. This will make the element span the full twelve columns of the grid system.
@@ -28,7 +28,7 @@ And that is all of the new HTML elements we will need for this section! Before w
 
 There is still some styling that we need to apply to these elements, namely the background image and the borders on the text element. This styling will be very specific to these elements, so we will create some **semantic** classes for each element to contain that styling.
 
-# <div align="center">Hero Image CSS</div>
+# Hero Image CSS
 
 The first thing we need to do is add the background image to this section. In order to do that, we will need to set the value for a few properties that correlate with `background-image` to control the behavior of the image we are going to use as the background. Take a look now at the image we will be using as the background for this section:
 
@@ -52,8 +52,8 @@ Based on this, we know a couple things that we will need to do to this backgroun
 
 Since this styling will be highly unique to the hero image element, we will create a **semantic** class for the hero image container.
 
-1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `hero-image`.
-1. In the CSS rule you created in the step above, add a [`background-image`](https://www.w3schools.com/cssref/pr_background-image.asp) property with a value of `url(assets/lfz-logo.png)`.
+1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `hero-image`.
+1. In the CSS rule-set you created in the step above, add a [`background-image`](https://www.w3schools.com/cssref/pr_background-image.asp) property with a value of `url(assets/lfz-logo.png)`.
     - This will apply the background image to the container.
 1. Below the above property, add a [`background-color`](https://www.w3schools.com/cssref/pr_background-color.asp) property with a value of `#303b43`.
     - This will provide the color backdrop we want behind our image, since it has a transparent background.
@@ -68,8 +68,8 @@ Since this styling will be highly unique to the hero image element, we will crea
 
 And that's it for the background image! We still have one more semantic class to create though, for the `h1` with your name in it.
 
-1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `student-name`.
-1. In the CSS rule you created in the step above, add a `font-size` property with a value of `80px`.
+1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `student-name`.
+1. In the CSS rule-set you created in the step above, add a `font-size` property with a value of `80px`.
     - The title in this section requires larger text than the default `h1` styling, so we are increasing it here.
 1. Below the above property, add a `background-color` property with a value of `#303b43`.
     - This is the same background color as we have for the background of the hero image. By doing this, we can have a stripe of the same color behind the text of the element, making it seem as though it is also a part of the background.
@@ -90,7 +90,7 @@ Save and open your document, and you should now see this:
 
 If so, you have completed this section, and you are ready to move on to the [ABOUT ME](ABOUT_ME.md) section! If your version still does not match the above image, look back through your code and double check that you completed each step. Please feel free to use the completed code so far from below as a reference.
 
-# <div align="center">CODE QUALITY CHECK</div>
+# CODE QUALITY CHECK
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
 
@@ -121,7 +121,7 @@ With every step of this project, I will provide the completed code for what we h
             </nav>
         </header>
         <div class="row justify-center align-center white-text hero-image">
-            <h1 class="student-name">ADA LOVELACE</h1>
+            <h1 class="col-12 student-name">ADA LOVELACE</h1>
         </div>
     </div>
 </body>

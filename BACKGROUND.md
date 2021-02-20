@@ -1,4 +1,4 @@
-# <div align="center">Portfolio Page Background</div>
+# Portfolio Page Background
 
 For our final task of this project, we will be applying a background image to the portfolio page. Let's take a look at the gif of the completed project to get an idea of how the background image for this section should behave:
 
@@ -8,12 +8,12 @@ For our final task of this project, we will be applying a background image to th
 
 Based on this, we can see that the image doesn't scroll with the page, fills the entire available area, and is centered in the available area. With that, let's get started! This final section will not require any new HTML, so let's dive in to the necessary CSS:
 
-# <div align="center">Portfolio Page Background CSS</div>
+# Portfolio Page Background CSS
 
-To apply this background image, there will need to be a CSS rule for the `body` element. Rather than add the rule to the bottom of the `style.css` document we've created thus far, however, let's ensure that the CSS is well organized. Rather than a CSS rule targeting all elements with a **class**, there has only been one CSS rule previously written by us that is targeting an element's **type**. To keep things organized, this new rule should be added below that **element type** selector created previously, which was for the `html` element.
+To apply this background image, there will need to be a CSS rule-set for the `body` element. Rather than add the rule to the bottom of the `style.css` document we've created thus far, however, let's ensure that the CSS is well organized. Rather than a CSS rule-set targeting all elements with a **class**, there has only been one CSS rule-set previously written by us that is targeting an element's **type**. To keep things organized, this new rule should be added below that **element type** selector created previously, which was for the `html` element.
 
-1. In your `style.css` document, create a new CSS rule ___directly below the existing CSS rule for the___ `html` ___element___. This new CSS rule should be targeting the `body` element.
-1. In the CSS rule you created in the step above, add a `margin` property with a value of `0`.
+1. In your `style.css` document, create a new CSS rule-set ___directly below the existing CSS rule-set for the___ `html` ___element___. This new CSS rule-set should be targeting the `body` element.
+1. In the CSS rule-set you created in the step above, add a `margin` property with a value of `0`.
     - The body element has an `8px` margin by default. This margin should be removed so that the background image does not have a margin pulling it away from the edges of the page.
 1. Below the above property, add a [`background-image`](https://www.w3schools.com/cssref/pr_background-image.asp) property with a value of `url(assets/motherboard-wallpaper.jpg)`.
     - This will apply the background image to the container.
@@ -24,7 +24,7 @@ To apply this background image, there will need to be a CSS rule for the `body` 
 
 And that's it for the background image!! There's one more piece of styling that can be applied to this to up the coolness factor by a bit, though:
 
-1. Within the existing CSS rule for the `html` element, add a [`scroll-behavior`](https://www.w3schools.com/cssref/pr_scroll-behavior.asp) property with a value of `smooth`.
+1. Within the existing CSS rule-set for the `html` element, add a [`scroll-behavior`](https://www.w3schools.com/cssref/pr_scroll-behavior.asp) property with a value of `smooth`.
     - This will make any anchor tags that are navigating to an `id` within the current document have a smooth scroll to that point rather than jumping directly to it. This is a newer property that is not very well incorporated across all browsers yet, but where it does work, a smooth scroll can really improve the transition between sections of your page for your users!
 
 And with that, the Portfolio project is complete! Congratulations!!!
@@ -35,7 +35,7 @@ And with that, the Portfolio project is complete! Congratulations!!!
 
 If your document's behavior differs in any way from the example gif provided above, please consult the completed code provided below to compare against your code.
 
-# <div align="center">CODE QUALITY CHECK</div>
+# CODE QUALITY CHECK
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
 

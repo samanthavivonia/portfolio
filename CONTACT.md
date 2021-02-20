@@ -1,4 +1,4 @@
-# <div align="center">Portfolio Contact Section</div>
+# Portfolio Contact Section
 
 For our next task, we will be working on building the "Contact" section of the portfolio page. Let's take a look at the wireframe that was made for this section:
 
@@ -8,18 +8,18 @@ For our next task, we will be working on building the "Contact" section of the p
 
 Based on this, we can see that there is a header declaring the purpose of the section which should take up the full width of the available space (col-12), and one other text element that includes a link to your GitHub profile. That text element is also taking up the full width of the available area, so it will receive a column measure of `col-12` as well. There is a little bit of CSS to build before we tackle the HTML though, so let's jump on that!
 
-# <div align="center">Contact CSS</div>
+# Contact CSS
 
-1. In your `style.css` document, create a new CSS rule selecting all elements with a class of `contact-section`.
-1. In the CSS rule you created in the step above, add a `background-color` property with a value of `#303b43`.
+1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `contact-section`.
+1. In the CSS rule-set you created in the step above, add a `background-color` property with a value of `#303b43`.
     - This class will be used to set the background color for this section.
-1. Below the CSS rule created in the step above, create a new CSS rule selecting all elements with a class of `blue-text`.
-1. In the CSS rule you created in the step above, add a `color` property with a value of `lightblue`.
+1. Below the CSS rule-set created in the step above, create a new CSS rule-set selecting all elements with a class of `blue-text`.
+1. In the CSS rule-set you created in the step above, add a `color` property with a value of `lightblue`.
     - This class will be used to set the font color for the anchor tag linking to your GitHub profile in this section. The text will all be set to have a white text color and the default link underline will be removed to keep the link stylistically similar to the links in the navbar, so we need another text color to differentiate our link from the surrounding text.
 
 With that, the necessary CSS for this section is done, and we can move on to the HTML!
 
-# <div align="center">Contact HTML</div>
+# Contact HTML
 
 1. Below the `div` element you created for the Projects section, create another `div` element.
 1. This section has a link in the navbar as well, so we will need to supply an `id` for the element to correlate with the anchor tag in the nav. Add an `id` attribute with a value of "contact" to the div element created in the step above.
@@ -54,7 +54,7 @@ If you see the above, you completed the Contact section successfully! There is s
 
 Let's move to the final section of this project where we can give the portfolio page a [background image](BACKGROUND.md). If anything differs on your page from the completed Contact section example above, cross-check your completed code with the code I have provided below before moving on.
 
-# <div align="center">CODE QUALITY CHECK</div>
+# CODE QUALITY CHECK
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
 

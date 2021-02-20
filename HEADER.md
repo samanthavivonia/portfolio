@@ -1,4 +1,4 @@
-# <div align="center">Portfolio Header</div>
+# Portfolio Header
 
 Now that we have narrowed the focus of the planning to individual sections, let's begin working on the first section of the application, the header:
 
@@ -24,11 +24,11 @@ These nav elements are all going to be distinct elements, but they have all been
 
 For the sake of the application, we will be using a grid system with **12 columns**. As such, we can now start to consider the size the elements should take up. The "Student Name" headline and nav element container do not take up all of the available space on the row, so we should be leaving some extra space in their sizing. The nav container is taking up about half of the row, so it should take up **6 columns** of the total twelve columns. Finally, the headline with your name will take **4 columns**, which leaves us with **2 columns** left over to use as **space between** the elements. Now that we have a plan of action, we can begin coding this section out!!
 
-# <div align="center">Basic HTML structure</div>
+# Basic HTML structure
 
-In your `root-one-portfolio` folder, please do the following:
+In your code editor, please do the following:
 
-1. Create an empty `style.css` file and an empty `index.html` file in your `lfz-prep-portfolio` folder.
+1. Create an empty `style.css` file and an empty `index.html` file.
 1. Add an HTML skeleton to your `index.html`.
 1. In the `head` element of your `index.html`, please paste in the following link element that will add a font family from Google Fonts that we can use in our document:
 ```html
@@ -66,11 +66,11 @@ In your `root-one-portfolio` folder, please do the following:
 
 And that's it for the HTML we need to write for this section! We will return to the html to add some classes later, but for now, we can move into preparing the CSS we will be applying to the elements.
 
-# <div align="center">CSS Basic Setup</div>
+# CSS Basic Setup
 
 To begin the CSS, we will apply the font family that was imported from Google Fonts to all of the text in our document.
 
-1. In your `style.css` document, create a new CSS rule selecting the `html` element. Within that rule, set the `font-family` property to have a value of `"Source Sans Pro", sans-serif`. This will set all text to have a font family of "Source Sans Pro", with a fallback font family of `sans-serif` just in case the intended font family cannot be used for some reason.
+1. In your `style.css` document, create a new CSS rule-set selecting the `html` element. Within that rule, set the `font-family` property to have a value of `"Source Sans Pro", sans-serif`. This will set all text to have a font family of "Source Sans Pro", with a fallback font family of `sans-serif` just in case the intended font family cannot be used for some reason.
 
 Next, we will be creating some utility classes! In CSS, a utility class is a class that is made to be reused, and usually only applies styling to one or two properties. These classes are named ***functionally*** rather than ***semantically***.
 
@@ -86,30 +86,30 @@ For example, a utility class might be something like this:
 
 Notice that the name of the class does not hint at any content it would be influencing, it simply describes the function that the class is used for. By keeping the name of the class related to its functionality rather than what it is being applied to, we can now use this class anywhere we might want to in our document.
 
-1. Below the CSS rule we wrote for the step above, create a new CSS rule selecting all elements with a class of `text-align-center`. Within that rule, set the `text-align` property to have a value of `center`.
+1. Below the CSS rule-set we wrote for the step above, create a new CSS rule-set selecting all elements with a class of `text-align-center`. Within that rule, set the `text-align` property to have a value of `center`.
     - This is an example of a "utility class". Notice that the class name does not describe what element will receive this styling, but rather describes the styling applied to that class, so that the class can be applied to any element we want to use that styling on and immediately understand what that class is doing.
-1. Create a new CSS rule selecting all elements with a class of `white-text`. Within that rule, set the `color` property to have a value of `white`.
-1. Create a new CSS rule selecting all elements with a class of `pb-50`. Within that rule, set the `padding-bottom` property to have a value of `50px`.
+1. Create a new CSS rule-set selecting all elements with a class of `white-text`. Within that rule, set the `color` property to have a value of `white`.
+1. Create a new CSS rule-set selecting all elements with a class of `pb-50`. Within that rule, set the `padding-bottom` property to have a value of `50px`.
     - This is an example of a utility class designed to make use of an abbreviation to describe the property and value being set. Alternatively, we could make the class name something like `padding-bottom-50`, but that is getting pretty lengthy, so by using the abbreviation `pb-50`, we can provide the same information describing the class's effect in far fewer characters.
 
 The rest of the utility classes we will make for this section are meant to work in conjunction with the grid system, which is built using `Flexbox`. While the grid system provides all of the classes we will need for sizing, we will need some classes for positioning items using "flexbox" within their rows in the grid.
 
-1. Create a new CSS rule selecting all elements with a class of `justify-center`. Within that rule, set the `justify-content` property to have a value of `center`.
+1. Create a new CSS rule-set selecting all elements with a class of `justify-center`. Within that rule, set the `justify-content` property to have a value of `center`.
   - The [`justify-content`](https://www.w3schools.com/cssref/css3_pr_justify-content.asp) property controls placement of child elements in FlexBox elements along the primary axis, which is the X axis (horizontal) by default.
-1. Create a new CSS rule selecting all elements with a class of `justify-evenly`. Within that rule, set the `justify-content` property to have a value of `space-evenly`.
-1. Create a new CSS rule selecting all elements with a class of `justify-between`. Within that rule, set the `justify-content` property to have a value of `space-between`.
-1. Create a new CSS rule selecting all elements with a class of `align-center`. Within that rule, set the `align-items` property to have a value of `center`.
+1. Create a new CSS rule-set selecting all elements with a class of `justify-evenly`. Within that rule, set the `justify-content` property to have a value of `space-evenly`.
+1. Create a new CSS rule-set selecting all elements with a class of `justify-between`. Within that rule, set the `justify-content` property to have a value of `space-between`.
+1. Create a new CSS rule-set selecting all elements with a class of `align-center`. Within that rule, set the `align-items` property to have a value of `center`.
   - The [`align-items`](https://www.w3schools.com/cssref/css3_pr_align-items.asp) property controls placement of child elements in FlexBox elements along the cross axis, which is the Y axis (vertical) by default.
 
 And that's it for the utility classes we will need for this section! There are still a couple minor classes we need to make styling for, but these will be `semantic classes` that are named for the element they will be being applied to rather than the functionality they provide.
 
-1. Create a new CSS rule selecting all elements with a class of `page-header`. Within that rule, set the `background-color` property to have a value of `darkslategray`. This class will be applied to the container for our entire header section to give it the background color we want it to have!
-1. Create a new CSS rule selecting all elements with a class of `nav-item`. Within that rule, set the `text-decoration` property to have a value of `none`. This class will be applied to all links in our document to remove the default underline and make our link look more clean.
-1. Create a new CSS rule selecting all elements with a class of `nav-item` ___AND___ the [pseudoclass](https://www.w3schools.com/css/css_pseudo_classes.asp) `hover`. Within that rule, set the `color` property to have a value of `steelblue`. This is a special piece of styling that will be applied by the browser when an element with the `nav-item` class is being hovered by the user, and will change the text color while it is being hovered. Since we changed the default color and look of our links, we need a visual indicator that the element is a link when a user interacts with it; this will serve that role.
+1. Create a new CSS rule-set selecting all elements with a class of `page-header`. Within that rule, set the `background-color` property to have a value of `darkslategray`. This class will be applied to the container for our entire header section to give it the background color we want it to have!
+1. Create a new CSS rule-set selecting all elements with a class of `nav-item`. Within that rule, set the `text-decoration` property to have a value of `none`. This class will be applied to all links in our document to remove the default underline and make our link look more clean.
+1. Create a new CSS rule-set selecting all elements with a class of `nav-item` ___AND___ the [pseudoclass](https://www.w3schools.com/css/css_pseudo_classes.asp) `hover`. Within that rule, set the `color` property to have a value of `steelblue`. This is a special piece of styling that will be applied by the browser when an element with the `nav-item` class is being hovered by the user, and will change the text color while it is being hovered. Since we changed the default color and look of our links, we need a visual indicator that the element is a link when a user interacts with it; this will serve that role.
 
 That is all the styling we will need to complete the header section of our document!! That may have felt like a lot of CSS to write for just one section, but most of the styling we just wrote was utility classes that we will be able to reuse throughout our document. Believe it or not, nearly half of the CSS for your entire document is now complete! Utility classes do require forethought and planning, but they allow us to do quite a lot with not a lot of code. Now that the CSS has been written for this section, let's move on to updating the HTML we wrote in the step above.
 
-# <div align="center">Updating HTML with CSS classes</div>
+# Updating HTML with CSS classes
 
 Now that we have the classes we needed to make to complete this section, let's go back and apply them to the elements in question to get that styling we were looking for!
 
@@ -131,7 +131,7 @@ And that's it!! So far, your document should look like this:
 
 If so, you are prepared to move on to the next section, the [Hero Image](HERO_IMG.md)!
 
-# <div align="center">CODE QUALITY CHECK</div>
+# CODE QUALITY CHECK
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
 
