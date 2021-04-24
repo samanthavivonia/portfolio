@@ -68,31 +68,31 @@ Completed `index.html`:
         <div class="row justify-center align-center white-text hero-image">
             <h1 class="student-name">ADA LOVELACE</h1>
         </div>
-    </div>
-    <div id="about" class="row justify-evenly align-center pb-50 about-section">
-        <h1 class="col-12">ABOUT ME</h1>
-        <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
-        <div class="col-5 text-align-reset">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+        <div id="about" class="row justify-evenly align-center pb-50 about-section">
+            <h1 class="col-12">ABOUT ME</h1>
+            <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
+            <div class="col-5 text-align-reset">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
+            </div>
         </div>
-    </div>
-    <div id="tech" class="row justify-evenly pb-50 tech-section">
-        <h1 class="col-12">TECHNOLOGIES</h1>
-        <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
-        <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
-        <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
-    </div>
-    <div id="projects" class="row justify-evenly pb-50 projects-section">
-        <h1 class="col-12">MY PROJECTS</h1>
-        <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
-        <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
-        <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
-    </div>
-    <div id="contact" class="row justify-center white-text pb-50 contact-section">
-        <h1 class="col-12">CONTACT ME</h1>
-        <p class="col-12">Find more of my work on <a href="" class="nav-item blue-text">GitHub</a></p>
+        <div id="tech" class="row justify-evenly pb-50 tech-section">
+            <h1 class="col-12">TECHNOLOGIES</h1>
+            <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
+            <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
+            <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
+        </div>
+        <div id="projects" class="row justify-evenly pb-50 projects-section">
+            <h1 class="col-12">MY PROJECTS</h1>
+            <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+            <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+            <img src="assets/placeholder-project.png" alt="Placeholder image" class="col-2">
+        </div>
+        <div id="contact" class="row justify-center white-text pb-50 contact-section">
+            <h1 class="col-12">CONTACT ME</h1>
+            <p class="col-12">Find more of my work on <a href="" class="nav-item blue-text">GitHub</a></p>
+        </div>
     </div>
 </body>
 
