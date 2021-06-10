@@ -60,48 +60,51 @@ With every step of this project, I will provide the completed code for what we h
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container text-align-center">
-        <header class="row justify-between align-center white-text page-header">
-            <h1 class="col-4">Ada Lovelace</h1>
-            <nav class="row col-6 justify-evenly">
-                <a href="#about" class="nav-item white-text">About</a>
-                <a href="#tech" class="nav-item white-text">Technologies</a>
-                <a href="#projects" class="nav-item white-text">Projects</a>
-                <a href="#contact" class="nav-item white-text">Contact</a>
-            </nav>
-        </header>
-        <div class="row justify-center align-center white-text hero-image">
-            <h1 class="student-name">ADA LOVELACE</h1>
-        </div>
-        <div id="about" class="row justify-evenly align-center pb-50 about-section">
-            <h1 class="col-12">ABOUT ME</h1>
-            <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
-            <div class="col-5 text-align-reset">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo minus dolorem saepe.</p>
-            </div>
-        </div>
-        <div id="tech" class="row justify-evenly pb-50 tech-section">
-            <h1 class="col-12">TECHNOLOGIES</h1>
-            <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
-            <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
-            <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
-        </div>
+  <div class="container text-align-center">
+    <header class="row justify-between align-center white-text page-header">
+      <h1 class="col-4">Ada Lovelace</h1>
+      <nav class="row col-6 justify-evenly">
+        <a href="#about" class="nav-item white-text">About</a>
+        <a href="#tech" class="nav-item white-text">Technologies</a>
+        <a href="#projects" class="nav-item white-text">Projects</a>
+        <a href="#contact" class="nav-item white-text">Contact</a>
+      </nav>
+    </header>
+    <div class="row justify-center align-center white-text hero-image">
+      <h1 class="student-name">ADA LOVELACE</h1>
     </div>
+    <div id="about" class="row justify-evenly align-center pb-50 about-section">
+      <h1 class="col-12">ABOUT ME</h1>
+      <img src="assets/ada-lovelace.jpg" alt="Ada Lovelace portrait" class="about-image col-3">
+      <div class="col-5 text-align-reset">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim
+          commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo
+          minus dolorem saepe.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim
+          commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo
+          minus dolorem saepe.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere minus voluptatibus, deserunt nostrum enim
+          commodi rerum provident architecto sint tenetur. Consequatur quia officiis atque exercitationem magnam, quo
+          minus dolorem saepe.</p>
+      </div>
+    </div>
+    <div id="tech" class="row justify-evenly pb-50 tech-section">
+      <h1 class="col-12">TECHNOLOGIES</h1>
+      <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
+      <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
+      <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
+    </div>
+  </div>
 </body>
-
 </html>
 ```
 
@@ -109,79 +112,79 @@ With every step of this project, I will provide the completed code for what we h
 
 ```css
 html {
-    font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .text-align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .white-text {
-    color: white;
+  color: white;
 }
 
 .pb-50 {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-evenly {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .justify-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .page-header {
-    background-color: darkslategrey;
+  background-color: darkslategrey;
 }
 
 .nav-item {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-item:hover {
-    color: steelblue;
+  color: steelblue;
 }
 
 .hero-image {
-    background-color: #303b43;
-    background-image: url(assets/lfz-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 80%;
-    height: 350px;
+  background-color: #303b43;
+  background-image: url(assets/lfz-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+  height: 350px;
 }
 
 .student-name {
-    font-size: 80px;
-    background-color: #303b43;
-    border-top: 5px double white;
-    border-bottom: 5px double white;
+  font-size: 80px;
+  background-color: #303b43;
+  border-top: 5px double white;
+  border-bottom: 5px double white;
 }
 
 .about-section {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 .about-image {
-    max-height: 80%;
-    border: 6px solid slategray;
+  max-height: 80%;
+  border: 6px solid slategray;
 }
 
 .text-align-reset {
-    text-align: initial;
+  text-align: initial;
 }
 
 .tech-section {
-    background-color: gainsboro;
+  background-color: gainsboro;
 }
 ```
