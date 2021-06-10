@@ -80,7 +80,7 @@ For example, a utility class might be something like this:
 
 ```css
 .text-align-center {
-    text-align: center;
+  text-align: center;
 }
 ```
 
@@ -140,30 +140,27 @@ With every step of this project, I will provide the completed code for what we h
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container text-align-center">
-        <header class="row justify-between align-center white-text page-header">
-            <h1 class="col-4">Ada Lovelace</h1>
-            <nav class="row col-6 justify-evenly">
-                <a href="#about" class="nav-item white-text">About</a>
-                <a href="#tech" class="nav-item white-text">Technologies</a>
-                <a href="#projects" class="nav-item white-text">Projects</a>
-                <a href="#contact" class="nav-item white-text">Contact</a>
-            </nav>
-        </header>
-    </div>
+  <div class="container text-align-center">
+    <header class="row justify-between align-center white-text page-header">
+      <h1 class="col-4">Ada Lovelace</h1>
+      <nav class="row col-6 justify-evenly">
+        <a href="#about" class="nav-item white-text">About</a>
+        <a href="#tech" class="nav-item white-text">Technologies</a>
+        <a href="#projects" class="nav-item white-text">Projects</a>
+        <a href="#contact" class="nav-item white-text">Contact</a>
+      </nav>
+    </header>
+  </div>
 </body>
-
 </html>
 ```
 
@@ -171,46 +168,46 @@ With every step of this project, I will provide the completed code for what we h
 
 ```css
 html {
-    font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .text-align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .white-text {
-    color: white;
+  color: white;
 }
 
 .pb-50 {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-evenly {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .justify-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .page-header {
-    background-color: darkslategrey;
+  background-color: darkslategrey;
 }
 
 .nav-item {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-item:hover {
-    color: steelblue;
+  color: steelblue;
 }
 ```
