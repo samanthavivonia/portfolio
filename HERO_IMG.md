@@ -52,7 +52,7 @@ Based on this, we know a couple things that we will need to do to this backgroun
 
 Since this styling will be highly unique to the hero image element, we will create a **semantic** class for the hero image container.
 
-1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `hero-image`.
+1. In your `styles.css` document, create a new CSS rule-set selecting all elements with a class of `hero-image`.
 1. In the CSS rule-set you created in the step above, add a [`background-image`](https://www.w3schools.com/cssref/pr_background-image.asp) property with a value of `url(assets/lfz-logo.png)`.
     - This will apply the background image to the container.
 1. Below the above property, add a [`background-color`](https://www.w3schools.com/cssref/pr_background-color.asp) property with a value of `#303b43`.
@@ -68,7 +68,7 @@ Since this styling will be highly unique to the hero image element, we will crea
 
 And that's it for the background image! We still have one more semantic class to create though, for the `h1` with your name in it.
 
-1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `student-name`.
+1. In your `styles.css` document, create a new CSS rule-set selecting all elements with a class of `student-name`.
 1. In the CSS rule-set you created in the step above, add a `font-size` property with a value of `80px`.
     - The title in this section requires larger text than the default `h1` styling, so we are increasing it here.
 1. Below the above property, add a `background-color` property with a value of `#303b43`.
@@ -105,7 +105,7 @@ With every step of this project, I will provide the completed code for what we h
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container text-align-center">
@@ -126,7 +126,7 @@ With every step of this project, I will provide the completed code for what we h
 </html>
 ```
 
-`style.css` thus far:
+`styles.css` thus far:
 
 ```css
 html {

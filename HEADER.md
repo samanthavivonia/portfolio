@@ -28,14 +28,14 @@ For the sake of the application, we will be using a grid system with **12 column
 
 In your code editor, please do the following:
 
-1. Create an empty `style.css` file and an empty `index.html` file.
+1. Create an empty `styles.css` file and an empty `index.html` file.
 1. Add an HTML skeleton to your `index.html`.
 1. In the `head` element of your `index.html`, please paste in the following link element that will add a font family from Google Fonts that we can use in our document:
 ```html
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
 ```
-1. Below the above link element, add a `link` element linking to the `grid.css` file included with the content for this project, as well as a link to your `style.css` file.
-    - **NOTE**: Please make sure that the order of your `link` elements is the font link pasted from above, `grid.css`, then `style.css` to ensure proper load order.
+1. Below the above link element, add a `link` element linking to the `grid.css` file included with the content for this project, as well as a link to your `styles.css` file.
+    - **NOTE**: Please make sure that the order of your `link` elements is the font link pasted from above, `grid.css`, then `styles.css` to ensure proper load order.
 1. Look at the contents of the `grid.css` file. You will notice that this is the same grid provided by us for the grid exercise you completed previously.
 1. Within the `body` element, add a `div` element with a class of `container`. This element will serve as the wrapper for all of the content of the page.
 1. Within the `div`, please add a `header` element with a class of `row`. This element is a [semantic element](https://www.w3schools.com/html/html5_semantic_elements.asp) which describes its content as "header" content. This element will serve as the container for all of the header content, and the `row` class will declare this element to be a row in the grid system of the document.
@@ -70,7 +70,7 @@ And that's it for the HTML we need to write for this section! We will return to 
 
 To begin the CSS, we will apply the font family that was imported from Google Fonts to all of the text in our document.
 
-1. In your `style.css` document, create a new CSS rule-set selecting the `html` element. Within that rule, set the `font-family` property to have a value of `"Source Sans Pro", sans-serif`. This will set all text to have a font family of "Source Sans Pro", with a fallback font family of `sans-serif` just in case the intended font family cannot be used for some reason.
+1. In your `styles.css` document, create a new CSS rule-set selecting the `html` element. Within that rule, set the `font-family` property to have a value of `"Source Sans Pro", sans-serif`. This will set all text to have a font family of "Source Sans Pro", with a fallback font family of `sans-serif` just in case the intended font family cannot be used for some reason.
 
 Next, we will be creating some utility classes! In CSS, a utility class is a class that is made to be reused, and usually only applies styling to one or two properties. These classes are named ***functionally*** rather than ***semantically***.
 
@@ -146,7 +146,7 @@ With every step of this project, I will provide the completed code for what we h
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container text-align-center">
@@ -164,7 +164,7 @@ With every step of this project, I will provide the completed code for what we h
 </html>
 ```
 
-`style.css` thus far:
+`styles.css` thus far:
 
 ```css
 html {

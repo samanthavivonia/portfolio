@@ -10,7 +10,7 @@ Based on this, we can see that there is a header declaring the purpose of the se
 
 # Contact CSS
 
-1. In your `style.css` document, create a new CSS rule-set selecting all elements with a class of `contact-section`.
+1. In your `styles.css` document, create a new CSS rule-set selecting all elements with a class of `contact-section`.
 1. In the CSS rule-set you created in the step above, add a `background-color` property with a value of `#303b43`.
     - This class will be used to set the background color for this section.
 1. Below the CSS rule-set created in the step above, create a new CSS rule-set selecting all elements with a class of `blue-text`.
@@ -69,7 +69,7 @@ With every step of this project, I will provide the completed code for what we h
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container text-align-center">
@@ -121,7 +121,7 @@ With every step of this project, I will provide the completed code for what we h
 </html>
 ```
 
-`style.css` thus far:
+`styles.css` thus far:
 
 ```css
 html {

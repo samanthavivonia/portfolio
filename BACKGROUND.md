@@ -10,9 +10,9 @@ Based on this, we can see that the image doesn't scroll with the page, fills the
 
 # Portfolio Page Background CSS
 
-To apply this background image, there will need to be a CSS rule-set for the `body` element. Rather than add the rule to the bottom of the `style.css` document we've created thus far, however, let's ensure that the CSS is well organized. Rather than a CSS rule-set targeting all elements with a **class**, there has only been one CSS rule-set previously written by us that is targeting an element's **type**. To keep things organized, this new rule should be added below that **element type** selector created previously, which was for the `html` element.
+To apply this background image, there will need to be a CSS rule-set for the `body` element. Rather than add the rule to the bottom of the `styles.css` document we've created thus far, however, let's ensure that the CSS is well organized. Rather than a CSS rule-set targeting all elements with a **class**, there has only been one CSS rule-set previously written by us that is targeting an element's **type**. To keep things organized, this new rule should be added below that **element type** selector created previously, which was for the `html` element.
 
-1. In your `style.css` document, create a new CSS rule-set ___directly below the existing CSS rule-set for the___ `html` ___element___. This new CSS rule-set should be targeting the `body` element.
+1. In your `styles.css` document, create a new CSS rule-set ___directly below the existing CSS rule-set for the___ `html` ___element___. This new CSS rule-set should be targeting the `body` element.
 1. In the CSS rule-set you created in the step above, add a `margin` property with a value of `0`.
     - The body element has an `8px` margin by default. This margin should be removed so that the background image does not have a margin pulling it away from the edges of the page.
 1. Below the above property, add a [`background-image`](https://www.w3schools.com/cssref/pr_background-image.asp) property with a value of `url(assets/motherboard-wallpaper.jpg)`.
@@ -50,7 +50,7 @@ Completed `index.html`:
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container text-align-center">
@@ -102,7 +102,7 @@ Completed `index.html`:
 </html>
 ```
 
-Completed `style.css`:
+Completed `styles.css`:
 
 ```css
 html {
