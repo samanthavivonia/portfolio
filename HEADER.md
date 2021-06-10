@@ -8,7 +8,7 @@ Now that we have narrowed the focus of the planning to individual sections, let'
 
 In the structure of the header, we have four text elements, with one placed against the left side of the row, and three placed against the right side of the row with a little space between them. There are multiple different ways we could accomplish this layout, but we want to find the [path of least resistance](https://en.wikipedia.org/wiki/Path_of_least_resistance).
 
-Rather than trying to force this layout using margin, padding, positioning, or other forceful ways to push an element around, we want to create a design that achieves this effect based on sizing the elements appropriately and consistently. One of the best ways we can accomplish this is using a [grid system](https://github.com/Learning-Fuze/lfz-lessons/tree/master/exercises/css-basic-grid). Let's start by breaking up the internal elements of this section into the containers we want to group the elements into.
+Rather than trying to force this layout using margin, padding, positioning, or other forceful ways to push an element around, we want to create a design that achieves this effect based on sizing the elements appropriately and consistently. One of the best ways we can accomplish this is using a [grid system](./grid.css) (not to be confused with the `grid` CSS property). Let's start by breaking up the internal elements of this section into the containers we want to group the elements into.
 
 Viewing the model for this section, we can see one distinct groupings of elements that would be a perfect use of a container to surround them:
 
