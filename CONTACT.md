@@ -54,6 +54,37 @@ If you see the above, you completed the Contact section successfully! There is s
 
 Let's move to the final section of this project where we can give the portfolio page a [background image](BACKGROUND.md). If anything differs on your page from the completed Contact section example above, cross-check your completed code with the code I have provided below before moving on.
 
+# You're Done!
+
+Once your code is done and your page is looking good, you are ready to commit your code and push it to GitHub.
+
+### Check `git status`
+
+```shell
+git status
+```
+
+Your HTML and CSS files should be listed as untracked or modified. Add them now. If you also added an image, you'll want to add that too.
+
+```shell
+git add index.html
+git add styles.css
+```
+
+Now commit your work.
+
+```shell
+git commit -m 'completed practice portfolio project'
+```
+
+Lastly, push your work to GitHub.
+
+```shell
+git push origin master
+```
+
+You can share a link to your repository if you'd like to share it with an instructor. 🚀
+
 # CODE QUALITY CHECK
 
 With every step of this project, I will provide the completed code for what we have written at the bottom of the section as a reference. **PLEASE NOTE** that I am providing this code as a way for you to double check your completed code for each section after having written it. If you choose to copy my code without writing it yourself first, you are doing so at your own peril ☠️
