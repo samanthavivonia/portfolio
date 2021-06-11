@@ -47,6 +47,7 @@ Once your GitHub repository has been created, you'll need to clone it to your co
     ```bash
     cd portfolio
     ```
+1. Now run the `npm ci` command to set up your linters for HTML and CSS.
 1. Lastly, open your new `portfolio` directory in your code editor!
 
 With that done, we are now ready to begin the project!
