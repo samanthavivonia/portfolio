@@ -36,7 +36,7 @@ Once your GitHub repository has been created, you'll need to clone it to your co
     ```bash
     cd ~/repos
     ```
-1. On your repository's GitHub page, find and click the **Clone** button.
+1. On your repository's GitHub page, find and click the **Code** button.
 1. Make sure to change the clone option to **SSH** and copy the URL that is displayed.
 1. Back in your Terminal (Mac) or Git Bash (Windows), clone your repository with the `git clone` command. You'll need to paste the URL you copied instead of the example below.<br>
     **Don't copy-paste the below command, it's just an example. You should use your own SSH URL.**
